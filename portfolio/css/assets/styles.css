@@ -12,7 +12,6 @@
 }
 .jumbotron {
     background: url(/img/background2.png) no-repeat top left;
-    background-color: rgb(38, 136, 136);
     background-size: cover;
     max-height: 850px;
     padding:60px 0px;
