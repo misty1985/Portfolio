@@ -11,7 +11,7 @@
     -webkit-border-radius: 10px;
 }
 .jumbotron {
-    background: url(/img/background2.png) no-repeat top left;
+    background: url(/assets/background2.jpg) no-repeat top left;
     background-size: cover;
     max-height: 850px;
     padding:60px 0px;
@@ -32,7 +32,7 @@
     max-height: 388px;
     overflow: auto;
 }
-.header {
+/* .header {
     height: 40px;
     border-bottom: 1px solid rgb(0, 0, 0);
     background-color: rgb(29, 155, 138);
@@ -44,7 +44,7 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     
-}
+} */
 .footer {
     position: bottom;
     float: center;
