@@ -1,59 +1,49 @@
-.containerfluid {
-    width: 500px;
-    max-height: 500px;
-    margin: 10px;
-    border: 1px solid rgb(232, 254, 255);
-    box-shadow: 0px 2px 7px rgb(60, 168, 159);
-    -moz-box-shadow: 0px 2px 7px rgb(187, 243, 238);
-    -webkit-box-shadow: 0px 2px 7px rgb(88, 182, 174);
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-}
-.jumbotron {
-    background: url(/assets/background2.jpg) no-repeat top left;
-    background-size: cover;
-    max-height: 850px;
-    padding:60px 0px;
-    margin: 0px;
+.container{
+    width: max-content;
+    position: relative;
+
 }
 
-#body,
-#header,
-#footer { 
-    float: center;
-    margin-bottom: center;
+.navbar{
+    max-width: fit-content;
+}
 
-    padding: 5px;
+.navbar, 
+.navbar-expand-lg, 
+.navbar-light, 
+bg-light {
+    outline-color: #000000;
+    color: #69c9f0;
 }
-.body {
-    margin-top: 0;
-    min-height: 150px;
-    max-height: 388px;
-    overflow: auto;
+
+.navlinkdisabled {
+    text-align: right;
 }
-/* .header {
-    height: 40px;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    background-color: rgb(29, 155, 138);
-    height: 40px;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    
-} */
+
+ .body{
+    margin: 0;
+    color: #000000;
+    background-color: #4ed7db;
+ }
+ 
+  .jumbotron, 
+  .jumbotronfluid { 
+    display: cover;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #4ed7db;
+  }
 .footer {
-    position: bottom;
-    float: center;
-    background-color: rgb(161, 68, 197);
-    border-top: 1px solid rgb(0, 0, 0);
-    -webkit-border-bottom-left-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    -moz-border-radius-bottomleft: 5px;
-    -moz-border-radius-bottomright: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    background-color: #7af5c2;
+    color: #000000;
+    border-top: 1px #75b88e;
+    border-style: inset;
+    max-width: fit-content;
+    margin-top: 10px; 
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
 }
