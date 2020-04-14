@@ -1,17 +1,14 @@
-.container{
-    width: max-content;
+.container {
+    width: cover;
     position: relative;
 
-}
-
-.navbar{
-    max-width: fit-content;
 }
 
 .navbar, 
 .navbar-expand-lg, 
 .navbar-light, 
 bg-light {
+    max-width: cover;
     outline-color: #000000;
     color: #69c9f0;
 }
@@ -20,7 +17,7 @@ bg-light {
     text-align: right;
 }
 
- .body{
+ .body {
     margin: 100%;
     color: #000000;
     background-color: #4ed7db;
@@ -28,7 +25,7 @@ bg-light {
  
   .jumbotron, 
   .jumbotronfluid { 
-    display: cover;
+    max-width: cover;
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
@@ -41,9 +38,9 @@ bg-light {
     color: #000000;
     border-top: 1px #75b88e;
     border-style: inset;
-    max-width: fit-content;
+    max-width: cover;
     margin-top: 10px; 
-    text-align: center;
+    position: middle;
     padding-top: 5px;
     padding-bottom: 0px;
 }

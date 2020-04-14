@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 
 <head>
-  <div class="container fluid" div class="container" style="width: 750px; margin: 0 auto;">
+  <div class="container width-cover">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -12,31 +12,35 @@
 
     <title>Haley Altons Portfolio</title>
 
-    <nav class="navbar ml-auto navbar-expand-lg navbar-light bg-info navbar width cover">
-      <a class="navbar-brand" href="#">Explore</a>
+    <nav class="container navbar ml-auto navbar-expand-lg navbar-light bg-info navbar width-cover">
+      <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
-              Welcome! <span class="caret"></span>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Explore
             </a>
-            <div class="dropdown-menu">
-              <button class="dropdown-item" href="#">About Me</a>
-                <a class="dropdown-item" href="#">Experience</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Portfolio</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">About</a>
+              <a class="dropdown-item" href="#">Experience</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Portfolio</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Coming Soon!</a>
+            <a class="nav-link disabled position-right" href="#">More coming soon!</a>
           </li>
         </ul>
       </div>
@@ -46,11 +50,10 @@
 <body>
   <link rel="stylesheet" href="css/assets/style.css">
 
-  <div class="containerfluid">git
-    <div class="jumbotron jumbotron fluid">
-      <h1 class="display flow root">Welcome!</h1>
-      <p class="lead">This is my portfolio, I hope you enjoy!</p>
-    </div>
+  <div class="container jumbotron jumbotron fluid width-cover">
+    <h1 class="display flow root">Welcome!</h1>
+    <p class="lead">This is my portfolio, I hope you enjoy!</p>
+  </div>
   </div>
 </body>
 
@@ -61,6 +64,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<footer class="containerfluid">Thanks for reading!</footer>
+<footer class="container position-middle">Thanks for reading!</footer>
 
 </html>
