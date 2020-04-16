@@ -1,5 +1,10 @@
-.navbar {
-  background-color: #46ceb0;
+.navbar, .navbarflex{
+padding: 1px;
+background-color: #46ceb0;
+}
+
+ nav {
+ display: contents;
 }
 .navbar .navbar-brand {
   color: #000000;
@@ -26,7 +31,7 @@
 }
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
-  color: #9d9e9e;
+  color: #000000;
 }
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item.active .nav-link:hover,
@@ -35,17 +40,17 @@
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
   color: #000000;
-background-color: #fbfbfb;
+background-color: #ceabf7;
 }
 .navbar .navbar-toggle {
-  border-color: #fbfbfb ;
+  border-color: #2fb4ae;
 }
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus {
-  background-color: #fbfbfb;
+  background-color: #ceabf7;
 }
 .navbar .navbar-toggle .navbar-toggler-icon {
-  color: #000000;
+  color: #ceabf7;
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
@@ -68,7 +73,7 @@ background-color: #fbfbfb;
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #000000;
-    background-color: #fbfbfb;
+    background-color: #ceabf7;
   }
 }
 
@@ -82,7 +87,7 @@ background-color: #fbfbfb;
   }
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #000000;
-    background-color: #fbfbfb;
+    background-color: #ceabf7;
   }
 }
 
@@ -96,7 +101,7 @@ background-color: #fbfbfb;
   }
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #000000;
-    background-color: #fbfbfb;
+    background-color:#ceabf7;
   }
 }
 
@@ -110,7 +115,7 @@ background-color: #fbfbfb;
   }
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #000000;
-    background-color: #fbfbfb;
+    background-color: #ceabf7;
   }
 }
 
@@ -124,5 +129,5 @@ background-color: #fbfbfb;
 }
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
   color: #000000;
-  background-color: #fbfbfb;
+  background-color: #ceabf7;
 }
